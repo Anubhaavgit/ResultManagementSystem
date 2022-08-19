@@ -1,0 +1,12 @@
+<h3 class="heading-text">Find Result</h3>
+<form #basicForm="ngForm" >
+    <div class="form-group" style="width: 50%; margin:0 auto;">
+      Roll No.<input type="text" ngModel name="rollno" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    </div>
+    <div class="form-group" style="width: 50%; margin:0 auto;">
+      Name<input type="text" ngModel name="name" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="button-div">
+        <button type="button" (click)="getData(basicForm.value)" class="btn btn-primary">Submit</button>
+    </div>
+  </form>

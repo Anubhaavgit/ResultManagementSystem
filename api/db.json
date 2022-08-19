@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "id": 16,
+      "rollno": "1",
+      "name": "Naman",
+      "dob": "02-10-2004",
+      "score": "100"
+    },
+    {
+      "id": 17,
+      "rollno": "4",
+      "name": "Ashay",
+      "dob": "1-11-2002",
+      "score": "100"
+    },
+    {
+      "id": 18,
+      "rollno": "10",
+      "name": "Anubhav Mishra",
+      "dob": "1-01-2000",
+      "score": "90"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Anubhav",
+      "email": "anubhav@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Naman",
+      "email": "naman@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "jaya",
+      "email": "jaya@gmail.com"
+    }
+  ]
+}

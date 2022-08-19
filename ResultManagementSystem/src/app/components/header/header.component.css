@@ -1,0 +1,14 @@
+.header{
+    background-color: #0DF39C ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.header-text{
+   margin-left: 42%;
+   font-weight: bold;
+   font-size: larger;
+}
+button{
+    float: right;
+    margin-right: 10px;
+}

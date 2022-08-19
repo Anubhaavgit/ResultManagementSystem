@@ -1,0 +1,27 @@
+ <!-- Add record button -->
+ <a style="float: right ;display: inline;" class="btn btn-primary float-right mt-3 me-3" href="addResult">Add Record</a>
+  
+ <table  class="table center table-bordered table-hover mt-5" style="width: 70%;">
+    <thead>
+    <tr>
+        
+      <th>Roll No</th>
+      <th>Name</th>
+      <th>Date of Birth</th>
+      <th>Score</th>
+      <th>Action</th>
+    </tr>
+</thead>
+<tbody>
+    <tr *ngFor="let result of resultOfStudents">
+      <th scope="row">{{result.rollno}}</th>
+      <td>{{result.name}}</td>
+      <td>{{result.dob}}</td>
+      <td>{{result.score}}</td>
+      <td>
+          <!-- <button>edit</button> -->
+          <button type="button" (click)="delete(result)">delete</button>
+    </td>
+    </tr>
+</tbody>
+  </table>
